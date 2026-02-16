@@ -1,0 +1,27 @@
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom scrollbar for black/white theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}
